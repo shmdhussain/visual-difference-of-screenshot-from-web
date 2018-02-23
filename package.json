@@ -1,0 +1,20 @@
+{
+  "name": "visual-diff-my-exp",
+  "version": "1.0.0",
+  "description": "to compare the two screenshots and find the difference",
+  "main": "index.js",
+  "scripts": {
+    "test-article-head": "mocha tests/article-head --timeout 120000"
+  },
+  "author": "Mohamed Hussain S H",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "mocha": "^5.0.0",
+    "pixelmatch": "^4.0.2",
+    "pngjs": "^3.3.1",
+    "polyserve": "^0.23.0",
+    "puppeteer": "^1.0.0"
+  }
+}
